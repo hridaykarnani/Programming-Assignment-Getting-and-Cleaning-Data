@@ -30,3 +30,14 @@ Labelled the data with names that were useful, since the names from the codes we
 This was done grouping activities and subjects with group_by and after the average was found with summarise_all and the mean function. This was stored in GoodData
 Later, I wrote a table with the data and saved in a .txt file with write.table.
 Finally, we can look at the table with the View() function.
+
+Files of the script:
+
+features: (561 obs of 2 variables) features.txt They are the features of movement given in the dataset.
+activities: (6 obs of 2 variables) activity_labels.txt. The activities performed by the people that participated in the experiment, it also contains its codes.
+subject_test: (2947 of 1 variable) subject_test.txt. The data of the 30 volunteers were divided in test and train. The test section contains the data of 9/30 volunteers. 
+x_test: (2947 of 1 variable) subject_test.txt. The data of the 30 volunteers were divided in test and train. The test section contains the data of 9/30 volunteers.
+y_test: (7352 of 1 variable) subject_test.txt. The data of the 30 volunteers were divided in test and train. The test section contains the data of 9/30 volunteers.
+subject_train: (7352 obs of 1 variable) subject_train.txt. The data of the 30 volunteers were divided in test and train. The train section contains the data of 21/30 volunteers. 
+x_train: (7352 obs of 1 variable) subject_train.txt. The data of the 30 volunteers were divided in test and train. The train section contains the data of 21/30 volunteers. 
+y_train: (7352 obs of 1 variable) subject_train.txt. The data of the 30 volunteers were divided in test and train. The train section contains the data of 21/30 volunteers. 
